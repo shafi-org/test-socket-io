@@ -13,7 +13,7 @@ io.on("connection", (socket) => {
 });
 
 app.get('/',(req,res)=>{
-    res.render('index')
+    res.send('index')
 })
 
 server.listen(5000);
