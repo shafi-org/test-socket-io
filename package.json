@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "socket.io": "^4.5.1",
+    "ws": "^7.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.6",
+    "utf-8-validate": "^5.0.9"
+  }
+}
